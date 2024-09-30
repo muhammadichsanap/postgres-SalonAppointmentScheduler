@@ -37,3 +37,9 @@ chmod +x salon.sh
 ./salon.sh
 pg_dump -cC --inserts -U freecodecamp salon > salon.sql
 psql --username=freecodecamp --dbname=postgres
+git remote remove origin
+git remote add origin https://github.com/muhammadichsanap/postgres-SalonAppointmentScheduler.git
+git init
+git add README.md
+git commit -m "first commit"
+git commit -a
